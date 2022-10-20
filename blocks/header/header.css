@@ -1,0 +1,74 @@
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #F2F2F2;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
+  z-index: 1;
+  }
+
+.header__title {
+  align-self: center;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  z-index: 3;
+  margin-left: 64px;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 3;
+}
+.header__main-illustration {
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+  z-index: 3;
+  color: #2F80ED;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+  transition-timing-function: linear;
+  transition-duration: .3s;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  background-color: #2F80ED;
+  position: absolute;
+  top: 65px;
+  right: 0px;
+  z-index: 1;
+  transform: rotate(-15deg);
+  animation: rotate 20s infinite linear;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
