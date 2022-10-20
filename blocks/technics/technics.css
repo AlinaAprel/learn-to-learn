@@ -1,0 +1,40 @@
+.technics {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cards {
+	width: 920px;
+	margin-right: auto;
+	margin-left: auto;
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cards__item {
+	margin-right: 100px;
+	margin-bottom: 60px;
+}
+
+.cards__title {
+	margin-bottom: 16px;
+	text-align: center;
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.cards__description {
+	text-align: center;
+	line-height: 23px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.cards__image {
+	width: 160px;
+	height: 160px;
+	margin: 60px 40px 43px 40px;
+	border-radius: 50%;
+}

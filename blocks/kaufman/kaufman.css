@@ -1,0 +1,47 @@
+.kaufman {
+	overflow: hidden;
+	background-color: #1F1F1F;
+	position: relative;
+	z-index: 0;
+}
+
+.table_theme_dark {
+	margin-bottom: 90px;
+}
+
+.section-title_theme_dark {
+	margin-top: 90px;
+	color: white;
+}
+
+.section-subtitle_theme_dark {
+	padding-bottom: 0px;
+	margin: 0 auto;
+	color: white;
+}
+
+.kaufman__triangle {
+	width: 877px;
+	height: 877px;
+	position: absolute;
+	right: -210px;
+	top: 0px;
+	z-index: -1;
+	animation: rotate-triangle 20s linear infinite;
+}
+
+.table__heading_theme_dark {
+	line-height: 1.15;
+}
+
+.table__text_theme_dark {
+	font-size: 18px;
+}
+
+.table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    width: 200px;
+	padding-top: 80px;
+	margin: 0px;
+}

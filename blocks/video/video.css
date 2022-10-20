@@ -1,0 +1,23 @@
+.video {
+	margin-top: 40px;
+}
+
+.video__iframes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.video__iframe {
+	margin-top: 50px;
+	width: 515px;
+	height: 316px;
+	margin-bottom: -40px;
+	border: 0;
+	width: 515px;
+	height: 316px;
+}
+
+.video__iframe:nth-child(2n+1) {
+	margin-right: 20px;
+}
