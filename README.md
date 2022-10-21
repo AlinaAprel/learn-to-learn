@@ -3,6 +3,7 @@
 ## Project was created to study the following technologies:
 ### - HTML5
 ### - CSS
+### - Animation in CSS
 ### - Flexbox
 ### - Grid
 ### - Semantic tags
